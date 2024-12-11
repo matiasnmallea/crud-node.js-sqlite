@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "build": "react-scripts build",
     "migrate": "sequelize db:migrate --url  sqlite://$(pwd)/dblogistica.sqlite",
     "unmigrate": "sequelize db:migrate:undo:all --url  sqlite://$(pwd)/dblogistica.sqlite",
     "seed": "sequelize db:seed:all --url  sqlite://$(pwd)/dblogistica.sqlite",
